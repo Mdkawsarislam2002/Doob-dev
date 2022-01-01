@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav__menu {
+    @apply text-blue-800 mx-4 font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-mainColor text-gray-100 capitalize  rounded-full  transition-all duration-500
+     hover:bg-gray-50 hover:text-secondColor border-transparent 
+     hover:border-mainColor hover:border shadow-lg;
+  }
+}
+
+@layer components {
+  .about__items {
+    @apply h-72 w-72 border border-secondColor m-10;
+  }
+}
+
+@layer components {
+  .about__icon {
+    @apply w-16;
+  }
+}
