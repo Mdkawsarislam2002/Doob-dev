@@ -7,6 +7,9 @@ module.exports = {
         mainColor: "rgb(255,57,70)",
         secondColor: "rgb(49,69,132)",
       },
+      screen: {
+        mobile: "370px",
+      },
     },
   },
   plugins: [],
