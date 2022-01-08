@@ -9,6 +9,11 @@ module.exports = {
       },
       fontFamily: {
         Vujahday: "Vujahday Script",
+        Mochiy: "Mochiy Pop P One",
+        Oswald: "Oswald",
+        Pacifico: "Pacifico",
+        Staatliches: "Staatliches",
+        VastShadow: "Vast Shadow",
       },
     },
   },

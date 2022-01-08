@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -28,25 +28,21 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="bg-zinc-100">
-    <nav class="">
+    <nav >
       <div class="flex justify-between items-cente m-auto md:mx-16 md:mt-10">
         <div class="logo ml-4">
           <img class="w-16 h-20" src="./assets/images/logo.svg" alt="" />
         </div>
         <div class="flex items-center">
-          <div class="nav__menu">HOME</div>
-          <div class="nav__menu">ABOUT</div>
+          <div class=""><a class="nav__menu" href="">HOME</a></div>
+          <div class="nav__menu"><a href="#about"> ABOUT</a></div>
           <div class="">
-            <button
-              class="nav__menu uppercase px-5 py-4 text-mainColor shadow-md rounded-md"
-            >
-              Contact Us
-            </button>
+            <a class="nav__menu uppercase px-5 py-4 text-mainColor shadow-md rounded-md"" href="#contact">contact us</a>
           </div>
         </div>
       </div>
     </nav>
-    <main>
+    <main id="home">
       <div class="hero">
         <div
           class="flex items-center mt-8 flex-wrap md:flex-nowrap text-center"
@@ -80,7 +76,7 @@
       </div>
     </main>
     <!-- about sections starts  -->
-    <section class="">
+    <section id="about">
       <div class="about flex flex-col lg:flex-row">
         <div class="lg:flex lg:flex-col lg:justify-center">
           <h2 class="text-4xl text-center text-secondColor font-semibold mx-6">
@@ -190,6 +186,30 @@
             alt=""
           />
         </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="">
+        <p class="text-center text-mainColor   text-xl font-semibold">CONTACT US</p>
+        <h3 class="text-center text-secondColor text-4xl  capitalize  font-bold">get in touch </h3>
+      </div>
+      <div class="">
+        <form action="">
+          <label  class="label" for="email"> Type Your Email </label>
+          <input class="input__fild" type="text" name="" id="email" placeholder="Your email">
+          <br>
+          <label class="label"  for="name">Type Your Name</label>
+          <input class="input__fild" type="text" name="" id="name" placeholder="Subject">
+          <br>
+          <label class="label"  for="msg">Type Your Massege </label>
+          <br>
+      <textarea id="msg" rows="2"  placeholder="write your messege " class="placeholder:text-gray-500/50 placeholder:font-Pacifico outline-none  ring ml-10 w-60 my-4  md:w-96" ></textarea>
+      <br>
+      <span class="flex   justify-center "> 
+        <input class="btn py-2 px-8   h-auto  " type="submit" value="sublit ">
+      </span>
+     
+        </form>
       </div>
     </section>
   </body>
