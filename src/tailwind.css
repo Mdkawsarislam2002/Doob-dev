@@ -45,8 +45,3 @@
     @apply w-full h-full object-cover;
   }
 }
-@layer components {
-  .news__iteams {
-    @apply bg-mainColor text-secondColor w-[500px]  h-auto   block m-2 overflow-hidden;
-  }
-}

@@ -528,18 +528,6 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: cover;
 }
 
-.news__iteams{
-  margin: 0.5rem;
-  display: block;
-  height: auto;
-  width: 500px;
-  overflow: hidden;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 57 70 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(49 69 132 / var(--tw-text-opacity));
-}
-
 .m-auto{
   margin: auto;
 }
