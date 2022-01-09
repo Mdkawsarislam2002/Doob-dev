@@ -36,7 +36,7 @@
 }
 @layer components {
   .gallary__item {
-    @apply bg-red-400 border-2 border-secondColor;
+    @apply border-2 border-secondColor;
   }
 }
 @layer components {
@@ -51,11 +51,16 @@
 }
 @layer components {
   .input__fild {
-    @apply mt-4  w-11/12 h-14 outline-none focus:ring-1 bg-gray-200  placeholder:text-zinc-500 focus:ring-mainColor ml-10;
+    @apply mt-4  w-11/12 h-14 outline-none focus:ring-1 bg-gray-200  placeholder:text-zinc-500 placeholder:pl-8 focus:ring-mainColor ml-10 rounded-sm;
   }
 }
 @layer components {
   .label {
     @apply text-secondColor text-xl font-semibold my-4 ml-10;
+  }
+}
+@layer components {
+  .footer__icon {
+    @apply w-10 mx-4;
   }
 }

@@ -27,7 +27,7 @@
     <!-- tailwindcss  comprassed file  -->
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="bg-zinc-100">
+  <body class="bg-zinc-100" id="body">
     <nav >
       <div class="flex justify-between items-cente m-auto md:mx-16 md:mt-10">
         <div class="logo ml-4">
@@ -60,7 +60,7 @@
               dui. Nulla porttitor accumsan tincidunt.
             </p>
             <div class="my-10 block">
-              <a class="btn px-10 py-4" href="#"> more about us </a>
+              <a class="btn px-10 py-4" href="#about"> more about us </a>
               <a
                 class="text-secondColor ml-5 px-10 py-4 rounded-full capitalize transition-all duration-500 hover:bg-secondColor hover:text-gray-50 border-secondColor border hover:border-secondColor hover:border-transparent shadow-lg"
                 href="#"
@@ -199,9 +199,9 @@
           <input class="input__fild" type="text" name="" id="email" placeholder="Your email">
           <br>
           <label class="label"  for="name">Type Your Name</label>
-          <input class="input__fild" type="text" name="" id="name" placeholder="Subject">
+          <input class="input__fild" type="text" name="" id="name" placeholder="Type Your Name ">
           <br>
-          <label class="label"  for="msg">Type Your Massege </label>
+          <label class="label"  for="msg">Write Your Massege </label>
           <br>
       <textarea id="msg" rows="2"  placeholder="write your messege " class="placeholder:text-gray-500/50 placeholder:font-Pacifico outline-none  ring ml-10 w-60 my-4  md:w-96" ></textarea>
       <br>
@@ -212,5 +212,20 @@
         </form>
       </div>
     </section>
+    <footer class="bg-secondColor mt-10">
+      <div class=" "> 
+      <p class="text-white text-center my-6">DOOB </p>
+      <h4 class="text-mainColor text-center font-bold  text-4xl">CREATIVITY ABOVE</h4>
+      <p class="text-center text-white ">&copy;2021 - MD KAWSAR ISLAM YEASIN </p>
+      </div>
+      <div class="social-icon flex  justify-center">
+        <a href="https://www.facebook.com/mdkawsarislam2002"><img class="footer__icon" src="./assets/icon/5869359_facebook_fb_network_icon.svg" alt="my facebook id "></a>
+     <a href="https://github.com/Mdkawsarislam2002"> <img class="footer__icon" src="./assets/icon/github.svg" alt=""></a>
+      </div>
+      <div class="flex justify-end ">
+    <a href="#body">    <img class="mx-7 my-6" src="./assets/icon/top-arrow.svg" alt="go to top" title="go to top"></a>
+      </div>
+       </div>
+    </footer>
   </body>
 </html>
